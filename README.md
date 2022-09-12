@@ -3,8 +3,11 @@
 This is an etch-a-sketch in DOM. I've added a few features to make the sketching more interesting for the user, such as 
 
 > Drop-down color picker
+
 > Variable canvas size on the page
+
 > Variable grid size (amount of pixels in the grid)
+
 > Grid lines that you can turn on and off - something I always like on drawing applications
 
 Reflections:
