@@ -46,7 +46,9 @@ gridLines.addEventListener('change',toggleGridLines);
 
 let pause = false;
 document.addEventListener('keypress',(e) => {
-   if (e.key === 'Shift') {pause = (!pause)};
+if (e.key == 't'){
+        pause = (!pause);
+    }
 });
 
 function setGrid(num_rows, num_cols)
@@ -76,7 +78,7 @@ function setGrid(num_rows, num_cols)
     }
 }
 
-setGrid(num_rows, num_cols);
+setGrid(num_rows, num_cols);    //initialize grid
 
 
 const resetButton = document.querySelector('.reset-button');
