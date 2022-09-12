@@ -1,3 +1,5 @@
+Live Preview: https://htmlpreview.github.io/?https://github.com/fatehss/Etch-a-Sketch/blob/main/index.html
+
 # Etch-a-Sketch
 
 This is an etch-a-sketch in DOM. I've added a few features to make the sketching more interesting for the user, such as 
