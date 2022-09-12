@@ -44,12 +44,9 @@ function toggleGridLines(){
 const gridLines = document.querySelector('.grid-lines-box');
 gridLines.addEventListener('change',toggleGridLines);
 
-let pause = false;
-document.addEventListener('keypress',(e) => {
-if (e.key == 't'){
-        pause = (!pause);
-    }
-});
+let mouseDown = false
+document.body.onmousedown = () => (mouseDown = true)
+document.body.onmouseup = () => (mouseDown = false)
 
 function setGrid(num_rows, num_cols)
 {
@@ -69,7 +66,7 @@ function setGrid(num_rows, num_cols)
             newBox.classList.add('box');
 
             newBox.addEventListener('mouseover', function(e){   //function that sets the sketch value to a
-                if (!pause){e.target.style.backgroundColor = color;}
+                if (mouseDown){e.target.style.backgroundColor = color;}
             })
             newRow.appendChild(newBox);
         }
