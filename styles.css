@@ -8,6 +8,10 @@ h1, h3{
      text-align: center;
 }
 
+body {
+    background-color: #cccccc;
+}
+
 
 #sketch-interface {
     display: flex;
@@ -19,9 +23,10 @@ h1, h3{
 
     border: 5px solid black;
     border-radius: 5px;
-    height: 400px;
-    width: 400px;
+}
 
+.box {
+    transition: all 0.3s;
 }
 .options-box {
     display: flex;

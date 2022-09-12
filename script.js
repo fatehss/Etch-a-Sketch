@@ -1,7 +1,9 @@
 
 
-const grid_height = 400;
-const grid_width = 400;
+let grid_height = 400;
+let grid_width = 400;
+
+
 let num_cols = 50;   //dimensions of the grid
 let num_rows = 50;
 
@@ -9,6 +11,15 @@ const container = document.querySelector('.sketch-container');
 
 container.style.height = grid_height;
 container.style.height = grid_width;
+
+const canvasSize = document.querySelector('#canvas-range-slider')
+canvasSize.addEventListener('input', function(e){
+    grid_height = e.target.value;
+    grid_width = e.target.value;
+    console.log('working');
+    container.replaceChildren(); //removes all child nodes and their child nodes
+    setGrid(num_cols, num_rows);
+});
 
 let color = 'black';    //stores color
 const colorPicker = document.querySelector('#pick-color');
@@ -63,6 +74,7 @@ function setGrid(num_rows, num_cols)
             let newBox = document.createElement('div');
             newBox.style.height = (grid_height/num_rows) + 'px';
             newBox.style.width = (grid_width/num_rows) + 'px';
+            newBox.style.backgroundColor = 'white';
             newBox.classList.add('box');
 
             newBox.addEventListener('mouseover', function(e){   //function that sets the sketch value to a
