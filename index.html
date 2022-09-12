@@ -4,12 +4,37 @@
     <title>Etch-A-Sketch</title>
     <meta charset="UTF-8">
     <script src="script.js" defer></script>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1>Etch a sketch!</h1>
-    <div class = 'sketch-interface'>
+    <h1>Etch-A-Sketch!</h1>
+    <h3><em>Press shift to toggle etching.</em> </h2>
+
+
+    <div id = 'sketch-interface'>
+        <div class = 'options-box'>
+            <div class = 'option'>
+                <p>Color:</p>
+                <input type="color" id="pick-color" name="favcolor" value="#fffff">
+            </div>
+            <div class = 'option'>
+                <p>Grid Size:</p>
+
+                <div class="slide-container">
+                    <input type="range" min="1" max="64" value="30" class="slider" id="range-slider"></input>
+
+                </div>
+            </div>
+            <div class = 'option'>
+                <div>Grid lines</div>
+                <input type="checkbox" class="grid-lines-box" ></input>
+            </div>
+            <div class = 'option reset'>
+                <button class = 'reset-button'>Reset?</button>
+            </div>
+        </div>
         <div class = "sketch-container"></div>
-        <button class = 'reset-button'>Reset?</button>
+
     </div>
 
 
