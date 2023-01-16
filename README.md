@@ -18,10 +18,19 @@ All in all I thought this was a fun exercise to get my feet wet with DOM. Once I
 
 Some masterpieces: 
 
-![Screenshot from 2022-09-12 14-50-12](https://user-images.githubusercontent.com/104878259/189764936-e5f54e92-6491-4dd6-95e7-f6e890664bdd.png)
+![the slip](https://user-images.githubusercontent.com/104878259/212767666-8e818fc4-4469-44b8-b1fc-a5fd1a501a6b.png)
 
-![Screenshot from 2022-09-12 15-02-02](https://user-images.githubusercontent.com/104878259/189766454-45db6d85-1c15-44d5-b97f-c5dad24610c0.png)
+![the slip 2](https://user-images.githubusercontent.com/104878259/212767908-58f82fe2-251d-4fda-bbb4-71a7a926dff9.png)
+
+ (The above is recreating this iconic image)
+ 
+![5_Premier-League-Liverpool-v-Chelsea-Anfield-270414](https://user-images.githubusercontent.com/104878259/212767741-49bc5477-af8d-4266-bdc3-74ce73f922c4.jpg)
+
+
+![Screenshot from 2022-09-12 14-50-12](https://user-images.githubusercontent.com/104878259/189764936-e5f54e92-6491-4dd6-95e7-f6e890664bdd.png)
 
 ![Goofy 1](https://user-images.githubusercontent.com/104878259/212764567-c75797ae-08fa-444c-9088-23c7bf56e852.png)
 
 ![Goofy 2](https://user-images.githubusercontent.com/104878259/212764580-2265acb1-1627-413a-9277-5a31ebccf76e.png)
+
+
